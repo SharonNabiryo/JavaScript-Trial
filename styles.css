@@ -39,36 +39,6 @@ label.active:before {
 body.night {
   background-color: #1b1c1f;
   color: white;
-  position: absolute;
-  width: 45px;
-  height: 26px;
-  right: 30px;
-  top: 18px;
-  border: 2px solid black;
-  border-radius: 20px;
-}
-
-label:before {
-  position: absolute;
-  content: "";
-  width: 20px;
-  height: 20px;
-  left: 1px;
-  top: 1px;
-  border-radius: 50%;
-  cursor: pointer;
-  background-color: black;
-  transition: 0.3s;
-}
-
-label.active:before {
-  left: 19px;
-  background: white;
-}
-
-body.night {
-  background-color: #1b1c1f;
-  color: white;
 }
 
 /* -------------END OF DARK MODE----------- */
